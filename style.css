@@ -71,7 +71,7 @@
 
 .link:hover {
     color: red;
-    transform: scale(2.2s);
+    transform: scale(2.2);
 }
 
 /* hire end nav */
@@ -215,7 +215,7 @@
 
 #go-down {
     margin-top: 100px;
-    transition: all 0.5 linear;
+    transition: all 0.5s linear;
     -webkit-transition: all 0.5 linear;
     -moz-transition: all 0.5 linear;
     -ms-transition: all 0.5 linear;
@@ -236,7 +236,7 @@
 }
 .grid .para {
     background-color: #f5f5dca6;
-    position: sticky;
+    position: relative;
     margin-top: -22px;
 }
 
@@ -331,7 +331,7 @@
 
 .foot-link a:hover {
     color: red;
-    o transform: rotate(360deg);
+    transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
